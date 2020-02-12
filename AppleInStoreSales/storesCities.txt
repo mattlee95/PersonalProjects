@@ -1,0 +1,270 @@
+Birmingham, The Summit
+Huntsville, Bridge Street
+Anchorage, Anchorage 5th Avenue Mall
+Chandler, Chandler Fashion Center
+Gilbert, SanTan Village
+Glendale, Arrowhead
+Scottsdale, Scottsdale Fashion Square
+Scottsdale, Scottsdale Quarter
+Tucson, La Encantada
+Little Rock, The Promenade at Chenal
+Bakersfield, Valley Plaza
+Berkeley, 4th Street
+Brea, Brea Mall
+Burlingame, Burlingame
+Canoga Park, Topanga
+Carlsbad, Carlsbad
+Cerritos, Los Cerritos
+Chula Vista, Otay Ranch
+Corte Madera, Corte Madera
+Costa Mesa, South Coast Plaza
+Cupertino, Apple Park Visitor Center
+Cupertino, Infinite Loop
+Emeryville, Bay Street
+Escondido, North County
+Fresno, Fashion Fair
+Glendale, Glendale Galleria
+Glendale, The Americana at Brand
+Irvine, Irvine Spectrum Center
+Los Angeles, Beverly Center
+Los Angeles, Century City
+Los Angeles, The Grove
+Los Gatos, Los Gatos
+Manhattan Beach, Manhattan Village
+Mission Viejo, Mission Viejo
+Modesto, Vintage Faire
+Monterey, Del Monte
+Newport Beach, Fashion Island
+Northridge, Northridge
+Palm Desert, El Paseo Village
+Palo Alto, Palo Alto
+Palo Alto, Stanford Shopping Center
+Pasadena, Pasadena
+Pleasanton, Stoneridge Mall
+Rancho Cucamonga, Victoria Gardens
+Roseville, Roseville
+Sacramento, Arden Fair
+San Diego, Fashion Valley
+San Diego, UTC
+San Francisco, Chestnut Street
+San Francisco, Stonestown
+San Francisco, Union Square
+San Jose, Oakridge
+San Luis Obispo, Higuera Street
+San Mateo, Hillsdale
+Santa Barbara, State Street
+Santa Clara, Valley Fair
+Santa Monica, Third Street Promenade
+Santa Rosa, Santa Rosa Plaza
+Sherman Oaks, Sherman Oaks
+Temecula, Promenade Temecula
+Thousand Oaks, The Oaks
+Valencia, Valencia Town Center
+Walnut Creek, Broadway Plaza
+Boulder, Twenty Ninth Street
+Broomfield, FlatIron Crossing
+Colorado Springs, The Promenade Shops at Briargate
+Denver, Cherry Creek
+Littleton, Aspen Grove
+Lone Tree, Park Meadows
+Danbury, Danbury Fair Mall
+Farmington, Westfarms
+Greenwich, Greenwich Avenue
+New Haven, New Haven
+South Windsor, Evergreen Walk
+Trumbull, Trumbull
+Newark, Christiana Mall
+Washington, Carnegie Library
+Washington, Georgetown
+Altamonte Springs, Altamonte
+Aventura, Aventura
+Boca Raton, Boca Raton
+Brandon, Brandon
+Estero, Coconut Point
+Fort Lauderdale, The Galleria
+Jacksonville, St. Johns Town Center
+Miami Beach, Lincoln Road
+Miami, Brickell City Centre
+Miami, Dadeland
+Miami, The Falls
+Naples, Waterside Shops
+Orlando, Florida Mall
+Orlando, Millenia
+Palm Beach Gardens, The Gardens Mall
+Sarasota, University Town Center
+Tampa, International Plaza
+Wellington, Wellington Green
+Alpharetta, Avalon
+Atlanta, Cumberland Mall
+Atlanta, Lenox Square
+Atlanta, Perimeter
+Augusta, Augusta
+Buford, Mall of Georgia
+Honolulu, Ala Moana
+Honolulu, Kahala
+Honolulu, Royal Hawaiian
+Boise, Boise Towne Square
+Chicago, Lincoln Park
+Chicago, Michigan Avenue
+Deer Park, Deer Park
+Naperville, Main Place
+Northbrook, Northbrook
+Oak Brook, Oakbrook
+Orland Park, Orland Square Mall
+Schaumburg, Woodfield
+Skokie, Old Orchard
+Indianapolis, The Fashion Mall at Keystone
+Mishawaka, University Park Mall
+West Des Moines, Jordan Creek
+Leawood, Leawood
+Lexington, Fayette Mall
+Louisville, Oxmoor
+Baton Rouge, Mall of Louisiana
+Metairie, Lakeside Shopping Center
+South Portland, Maine Mall
+Annapolis, Annapolis
+Bethesda, Bethesda Row
+Bethesda, Montgomery Mall
+Columbia, Columbia
+Towson, Towson Town Center
+Boston, Boylston Street
+Braintree, South Shore
+Burlington, Burlington
+Cambridge, CambridgeSide
+Chestnut Hill, Chestnut Hill
+Dedham, Legacy Place
+Hingham, Derby Street
+Holyoke, Holyoke
+Lynnfield, MarketStreet
+Marlborough, Solomon Pond Mall
+Natick, Natick
+Ann Arbor, Briarwood
+Clinton Township, Partridge Creek
+Grand Rapids, Woodland
+Lansing, Eastwood Towne Center
+Novi, Twelve Oaks
+Troy, Somerset
+Bloomington, Mall of America
+Edina, Southdale
+Minneapolis, Uptown
+Minnetonka, Ridgedale
+Roseville, Rosedale Center
+Ridgeland, Renaissance at Colony Park
+Kansas City, Country Club Plaza
+St. Louis, Saint Louis Galleria
+St. Louis, West County
+Omaha, Village Pointe
+Las Vegas, Fashion Show
+Las Vegas, Summerlin
+Las Vegas, The Forum Shops
+Las Vegas, Town Square
+Reno, Summit Sierra
+Manchester, The Mall of New Hampshire
+Nashua, Pheasant Lane
+Salem, Rockingham Park
+Bridgewater, Bridgewater
+Cherry Hill, Cherry Hill
+Edison, Menlo Park
+Freehold, Freehold Raceway Mall
+Lawrence Township, Quaker Bridge
+Marlton, Sagemore
+Paramus, Garden State Plaza
+Rockaway, Rockaway
+Short Hills, Short Hills
+Wayne, Willowbrook
+Woodcliff Lake, Tice’s Corner
+Albuquerque, ABQ Uptown
+Albany, Crossgates
+Brooklyn, Downtown Brooklyn
+Brooklyn, Williamsburg
+Buffalo, Walden Galleria
+Elmhurst, Queens Center
+Garden City, Roosevelt Field
+Huntington Station, Walt Whitman
+Lake Grove, Smith Haven
+Manhasset, Manhasset
+Nanuet, Nanuet
+New York, Fifth Avenue
+New York, Grand Central
+New York, SoHo
+New York, Upper East Side
+New York, Upper West Side
+New York, West 14th Street
+New York, World Trade Center
+Staten Island, Staten Island
+Syracuse, Syracuse
+Victor, Eastview
+White Plains, The Westchester
+Yonkers, Ridge Hill
+Charlotte, Northlake Mall
+Charlotte, SouthPark
+Durham, Southpoint
+Greensboro, Friendly Center
+Raleigh, Crabtree Valley Mall
+Akron, Summit Mall
+Beavercreek, The Greene
+Cincinnati, Kenwood Towne Centre
+Columbus, Easton Town Center
+Columbus, Polaris Fashion Place
+Toledo, Franklin Park Mall
+Westlake, Crocker Park
+Woodmere, Eton
+Oklahoma City, Penn Square
+Tulsa, Woodland Hills
+Portland, Pioneer Place
+Tigard, Bridgeport Village
+Tigard, Washington Square
+Ardmore, Suburban Square
+King of Prussia, King of Prussia
+Lancaster, Park City
+Philadelphia, Walnut Street
+Pittsburgh, Ross Park
+Pittsburgh, Shadyside
+Pittsburgh, South Hills Village
+Whitehall, Lehigh Valley
+Willow Grove, Willow Grove Park
+Providence, Providence Place
+Charleston, King Street
+Greenville, Haywood Mall
+Franklin, CoolSprings Galleria
+Germantown, Saddle Creek
+Knoxville, West Town Mall
+Nashville, Green Hills
+Austin, Barton Creek
+Austin, Domain NORTHSIDE
+Dallas, Galleria Dallas
+Dallas, Knox Street
+Dallas, NorthPark Center
+El Paso, Cielo Vista Mall
+Fort Worth, University Park Village
+Friendswood, Baybrook
+Houston, Highland Village
+Houston, Houston Galleria
+Houston, Memorial City
+Houston, Willowbrook Mall
+San Antonio, La Cantera
+San Antonio, North Star
+Southlake, Southlake Town Square
+Sugar Land, First Colony Mall
+The Woodlands, The Woodlands
+Farmington, Station Park
+Murray, Fashion Place
+Salt Lake City, City Creek Center
+Arlington, Clarendon
+Arlington, Pentagon City
+Fairfax, Fair Oaks
+McLean, Tysons Corner
+Norfolk, MacArthur Center
+Reston, Reston
+Richmond, Short Pump Town Center
+Virginia Beach, Lynnhaven Mall
+Woodbridge, Potomac Town Center
+Bellevue, Bellevue Square
+Lynnwood, Alderwood
+Seattle, University Village
+Spokane, River Park Square
+Tacoma, Tacoma Mall
+Tukwila, Southcenter
+Glendale, Bayshore
+Madison, Hilldale
+Wauwatosa, Mayfair
