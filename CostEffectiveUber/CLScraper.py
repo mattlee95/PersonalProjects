@@ -7,6 +7,10 @@ LOCALITY = None
 
 
 def scrape_search_for_listings(search_url):
+    '''
+    Function takes in a string url which is a page of listings on CL
+    Function returns list of strings of urls which are presumed to be listings
+    '''
     global LOCALITY
 
     res = requests.get(search_url)
@@ -16,10 +20,14 @@ def scrape_search_for_listings(search_url):
     listing_links = list()
     cont_lines = res.content.split('\n')
 
+    # Scraping through the raw html contents of the webpage for all links
+    # With the idea of grabbing all listings on that page of listings
     for line in cont_lines:
 
+        # To make sure the link is a listing making sure the link matches the following criteria
         if line.find('https://{0}.craigslist.org'.format(LOCALITY)) >= 0 and line.find('html') >= 0:
 
+            # Grabbing just the link part from the line
             new_listing = line[line.find('https://{0}.craigslist.org'.format(LOCALITY)) : line.find('html') + 4]
             if ('/d/' in new_listing) and (new_listing not in listing_links):
 
@@ -31,6 +39,11 @@ def scrape_search_for_listings(search_url):
 
 
 def scrape_listing_for_details(listing_url):
+    '''
+    Function takes in a string url for an actual CL listing
+    Function returns a tuple of the pertinent details for the listed car:
+        (model_year, miles, title, price)
+    '''
     global MODEL
 
     if (MODEL.lower() not in listing_url.lower()):
@@ -92,9 +105,11 @@ def scrape_for_model(model, locality):
     LOCALITY = locality
     MODEL = model
 
+    # Specific URL formatting for page 1
     page1p1 = 'https://{0}.craigslist.org/search/cta?query='.format(LOCALITY) #Car model
     page1p2 = '&sort=rel'
 
+    # URL formatting for pages after 1
     pageNp1 = 'https://{0}.craigslist.org/search/cta?s='.format(LOCALITY) #Page Number - 1 * 120
     pageNp2 = '&query=' #Car model
     pageNp3 = '&sort=rel'
@@ -106,9 +121,11 @@ def scrape_for_model(model, locality):
 
     print "SCRAPING P1"
 
+    # Using page 1 specific format for scrape listing page 1 for listing urls
     listing_list = scrape_search_for_listings(page1p1 + model + page1p2)
     last_listing_num = len(listing_list)
 
+    # Go through collected listing URLS and scrape them for data
     for l in listing_list:
 
         listing_data = scrape_listing_for_details(l)
@@ -119,6 +136,8 @@ def scrape_for_model(model, locality):
 
     p = 120
 
+    # Continue for all pages after page 1, once we see a page with less than
+    # 10 possible listings gathered, we know we are at the end
     while (last_listing_num > 10):
 
         print "SCRAPING P{0}".format((p + 120) / 120)

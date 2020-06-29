@@ -7,6 +7,10 @@ LOCALITIES = ['sfbay', 'sacramento', 'losangeles', 'sandiego', 'orangecounty', '
 #LOCALITIES = ['sfbay']
 
 def remove_salvage(raw_data):
+    '''
+    Function returns new list of data with salvage data-points removed
+    Trying to isolate the regression model to a single variable (miles)
+    '''
 
     ret_list = list()
 
@@ -20,6 +24,10 @@ def remove_salvage(raw_data):
 
 
 def get_data_mod_loc(model, locality):
+    '''
+    Function returns list of data of all listings for a specific car model
+    and locatlity in which it is being sold
+    '''
 
     raw_data = CLScraper.scrape_for_model(model, locality)
 
@@ -29,6 +37,10 @@ def get_data_mod_loc(model, locality):
 
 
 def car_dep_model(model):
+    '''
+    Function collects data for a car model for various localities on CL
+    Returns the data
+    '''
     global LOCALITIES
 
     car_data = []
