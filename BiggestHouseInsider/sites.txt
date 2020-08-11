@@ -1,0 +1,3 @@
+https://www.historicalstockprice.com/history/?a=historical&ticker=AAPL&month=01&day=30&year=2014&x=9&y=11
+
+https://disclosures-clerk.house.gov/PublicDisclosure/FinancialDisclosure
