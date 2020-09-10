@@ -24,6 +24,9 @@ class matplot_graph:
 
 def add_plot_to_pdf(graph_list, pdf_name, pdf_title):
 
+    # Using this to bubble up the slopes to the caller
+    slope_list = list()
+
     with PdfPages(pdf_name + '.pdf') as pdf:
 
         for graph in graph_list:
@@ -33,6 +36,7 @@ def add_plot_to_pdf(graph_list, pdf_name, pdf_title):
             x_numpy = np.array(graph.x)
 
             b, m = polyfit(graph.x, graph.y, 1)
+            slope_list.append(m)
 
             plt.title(graph.title + " Depreciation/Mile Driven: {0}".format(m))
             plt.xlabel(graph.x_label)
@@ -50,3 +54,5 @@ def add_plot_to_pdf(graph_list, pdf_name, pdf_title):
         d = pdf.infodict()
         d['Title'] = pdf_title
         d['Author'] = "Matthew Lee"
+
+        return slope_list

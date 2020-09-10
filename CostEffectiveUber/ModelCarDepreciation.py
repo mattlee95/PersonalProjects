@@ -4,7 +4,8 @@ import os
 
 MODELS = ['prius', 'camry', 'civic', 'accord', 'rav4', 'altima', 'escape', 'pilot', 'fusion', 'egde', 'rdx', 'mdx', 'corolla']
 LOCALITIES = ['sfbay', 'sacramento', 'losangeles', 'sandiego', 'orangecounty', 'lasvegas']
-#LOCALITIES = ['sfbay']
+#LOCALITIES = ['sacramento']
+#MODELS = ['rav4']
 
 def remove_salvage(raw_data):
     '''
@@ -56,6 +57,9 @@ def plot_car_dep(model):
 
     raw_data = car_dep_model(model)
 
+    # Going to use this list to track depreciation per model
+    # Format [[model, year, samples, depreciation],...]
+    deprec_list = list()
     graph_list = list()
 
     for i in range(2000, 2021):
@@ -70,14 +74,38 @@ def plot_car_dep(model):
 
         if (len(graph.x) > 0):
             graph_list.append(graph)
+            deprec_list.append([model, i, len(graph.x), 0])
 
     if (len(graph_list) > 0):
 
-        add_plot_to_pdf(graph_list, "{0}Depreceation".format(model), "Car: {0} Depreciation As Mileage Increases".format(model))
+        slope_list = add_plot_to_pdf(graph_list, "{0}Depreceation".format(model), "Car: {0} Depreciation As Mileage Increases".format(model))
+
+    for i in range(len(deprec_list)):
+        deprec_list[i][3] = slope_list[i]
+
+    return deprec_list
 
 
+def rank_depreciation(dep_list):
 
-for model in MODELS:
-    plot_car_dep(model)
+    dep_list.sort(key=lambda x: x[3], reverse=True)
 
-#get_data_mod_loc(MODELS[0], LOCALITIES[0])
+    print "CAR DEPRECIATION RANKING"
+
+    for i in range(len(dep_list)):
+
+        print "Rank {0}: {1} {2}, Depreciation Per Mile (in Dollars): {3} with {4} samples".format(i+1, dep_list[i][1], dep_list[i][0], dep_list[i][3], dep_list[i][2])
+
+
+def main():
+
+    deprec_list = []
+
+    for model in MODELS:
+
+        model_dep = plot_car_dep(model)
+        deprec_list += model_dep
+
+    rank_depreciation(deprec_list)
+
+main()

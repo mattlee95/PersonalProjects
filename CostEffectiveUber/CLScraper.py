@@ -13,7 +13,11 @@ def scrape_search_for_listings(search_url):
     '''
     global LOCALITY
 
-    res = requests.get(search_url)
+    try:
+        res = requests.get(search_url)
+    except:
+        print "ERROR: For some reason a request has failed"
+        return []
 
     listing_links = re.findall('sfbay*.html', res.content)
 
@@ -49,7 +53,11 @@ def scrape_listing_for_details(listing_url):
     if (MODEL.lower() not in listing_url.lower()):
         return (0, 0, 0, 0)
 
-    res = requests.get(listing_url)
+    try:
+        res = requests.get(listing_url)
+    except:
+        print "ERROR: For some reason a request has failed"
+        return [None, None, None, None]
 
     model_year = 0
     miles = 0
