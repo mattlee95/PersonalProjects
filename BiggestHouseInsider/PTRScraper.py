@@ -78,5 +78,5 @@ def read_pdf_maps():
         year += 1
 
 
-l = read_pdf_maps()
-download_and_save_pdfs(l)
+#l = read_pdf_maps()
+#download_and_save_pdfs(l)

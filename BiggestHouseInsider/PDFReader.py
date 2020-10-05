@@ -149,11 +149,12 @@ def get_all_trades():
     print('Trades: {0}'.format(trade_num))
     return trades_per_rep
 
-
+'''
 trade_dict = get_all_trades()
 print(trade_dict)
 print(trade_dict.keys())
+print(trade_dict['Hon. Nancy Pelosi'])
 #name, test = parse_pdf_for_trades('20010637.pdf')
 #print(test)
 #print(name)
-#print('')
+#print('')'''
